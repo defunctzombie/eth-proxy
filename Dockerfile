@@ -7,4 +7,4 @@ ADD . /app
 WORKDIR /app
 
 VOLUME /etc/eth-proxy.conf
-CMD ["python", "eth-proxy.py", "/etc/eth-proxy.conf"]
+CMD ["/app/run.sh"]
